@@ -1,0 +1,46 @@
+body {
+  position: relative; }
+
+.hero {
+  width: 100%;
+  height: 100%;
+  background-color: #194fa6;
+  position: relative; }
+
+.hero > img {
+  width: 100%;
+  height: 100%;
+  opacity: .5; }
+
+.hero > .caption {
+  width: 550px;
+  margin-bottom: 25px;
+  padding-left: 30px;
+  position: absolute;
+  bottom: 0px; }
+
+.login-box {
+  height: 100%;
+  width: 496px;
+  display: flex;
+  position: absolute;
+  top: 0;
+  right: 0; }
+
+.login-box > .login-container > img {
+  width: 85px;
+  height: 85px;
+  margin: 0 auto 55px;
+  display: block; }
+
+.login-box > .login-container {
+  display: block;
+  margin: auto !important;
+  width: 80%; }
+
+@media (max-width: 768px) {
+  .login-box {
+    width: 100%; } }
+
+form {
+  margin-bottom: 25px; }
